@@ -1,5 +1,5 @@
 # Password Manager
 
-##Encryption
+## Encryption
 
-##MySQL Database
+## MySQL Database
