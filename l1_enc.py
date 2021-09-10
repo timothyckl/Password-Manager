@@ -1,6 +1,5 @@
 # create feature to write text file with encoded text and encryption key used
 # error handle characters that are not in list
-from l1_enc import Encoder
 import random
 import shutil
 from sys import maxsize
@@ -49,6 +48,7 @@ class Encoder:
 
 
 # Usage
+# from l1_enc import Encoder
 # file = 'C:/Users/Timothy Chia/Desktop/Projects/Cipher/unicode basic latin.txt'
 # char_list = open(file, 'r', encoding='utf-8')
 # letters = []
