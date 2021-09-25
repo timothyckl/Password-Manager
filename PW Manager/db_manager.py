@@ -100,17 +100,3 @@ def find_account_by_email(_email):
             print(f"\n{'-'*8}NO ACCOUNTS FOUND{'-'*8}\n")
     except mysql.connector.Error as error:
         print(error)
-
-
-# store_account("asdasd", "omg123",
-#               "test@gmail.com", "lazada.com")
-# remove_account(username="timothy", password="cats69420!",
-#                url="straitstimes.sg")
-# print(find_account_by_email("test@gmail.com"))
-
-# cnx = connect()
-# cursor = cnx.cursor()
-# cursor.execute(
-#     "DELETE FROM accounts;")
-# cnx.commit()
-# find_account_by_email('jon@gmail.com')
