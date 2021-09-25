@@ -7,7 +7,7 @@ def connect():
         cnx = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="Exodia2024!",
+            passwd="root",
             database="vault"
         )
         return cnx
