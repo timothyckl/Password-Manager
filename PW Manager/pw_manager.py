@@ -1,8 +1,11 @@
 from menu import menu, store, find, remove
 from secret import generate_password, master_pw
+import hashlib
+import getpass
 import time
 
-passwd = input("\nEnter master password: ")
+passwd = hashlib.sha512(getpass.getpass(
+    "\nEnter master password: ").encode()).hexdigest()
 
 if passwd == master_pw:
     time.sleep(1)
