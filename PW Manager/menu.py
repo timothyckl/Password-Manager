@@ -13,7 +13,7 @@ def menu():
 def store():
     print(f"\n{'-'*8}Store Account{'-'*8}\n")
     website = input("Enter site/app name: ")
-    email = input("Email: ")
+    email = input("Email: ") or "none"
     username = input("Username: ")
     password = input("Password: ")
     store_account(username, password, email, website)
