@@ -1,5 +1,5 @@
 from menu import menu, store, find, remove
-from secret import generate_password, get_mpw()
+from secret import generate_password, get_mpw
 import time
 
 passwd = get_mpw()
