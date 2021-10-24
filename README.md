@@ -1,5 +1,5 @@
 # Password Manager
-IM GONNA FINISH THE README SOME OTHER TIME OKAY ADAWBNDUOANAOUIDjbDOUJBB
+
 ## Encryption
 
 ## MySQL Database
